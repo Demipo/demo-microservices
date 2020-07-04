@@ -2,7 +2,7 @@
 This is a basic demonstration of microservices. Two standalone SpringBoot applications, running on different ports communicate with each other, using RestTemplate.
 
 ## Description
-**ForeignExchange** is the first of the two microservices. Its changes some hardcoded values of a particular currency (in this case IND) to some otherf hardcoded currencies 
+**ForeignExchange** is the first of the two microservices. Its changes some hardcoded values of a particular currency (in this case INR) to some otherf hardcoded currencies 
 (in this case EUR, USD and AUD). The conversion rates between INR and the other currencies are as well hardcoded. The endpoint ```/currency-exchange/from/{from}/to/{to}``` exposes method ```ExchangeValue retrieveExchangeValue()```.
 
 **input**: http://localhost:8000/currency-exchange/from/EUR/to/INR
